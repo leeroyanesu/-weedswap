@@ -7,9 +7,7 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist"
-  ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit",
-  "license": "MIT",
+  ],"license": "MIT",
   "scripts": {
     "start": "yarn storybook",
     "build": "rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist ",
